@@ -1,1 +1,43 @@
-hola esta es mi pagina 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Sencilla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi página web</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Esta es una página sencilla creada con HTML, CSS y JavaScript.</p>
+    <button id="btnSaludo">Haz clic aquí</button>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre mí</h2>
+    <p>Soy un desarrollador aprendiendo a crear páginas web con Visual Studio Code.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes contactarme en: <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mi Página Sencilla</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
